@@ -54,7 +54,7 @@ function handleTiping() {
         updateElement(name);
       } else {
         if (checkRepeatedName(name)) {
-          alert('Já tem nome cadastrado, por favor, coloque um diferente');
+          alert("Já tem nome cadastrado, por favor, coloque um diferente");
           return;
         }
         addName(name);
